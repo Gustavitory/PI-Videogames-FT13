@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.app{
+  width: 75rem;
+  margin: auto;
+  font-family: 'Chakra Petch', sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
