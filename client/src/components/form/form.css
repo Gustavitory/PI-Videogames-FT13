@@ -1,0 +1,26 @@
+.formulario{
+    width: 12rem;
+    height: 28rem;
+    margin: auto;
+    margin-top: 0;
+    background-color:  rgba(0, 0, 0, 0.74);
+    padding: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.formimg{
+    margin: auto;
+    border-radius: 1rem;
+    width: 18rem;
+}
+.formconteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 18rem;
+    margin-top: 1rem;
+    padding: 5rem;
+    background-color: #EB5757;
+    border-radius: 1rem;
+}

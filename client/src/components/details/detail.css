@@ -1,0 +1,21 @@
+.detailsCont{
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-top: 1rem;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.back{
+    background-color:  rgba(0, 0, 0, 0.74);
+    width: 55rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+.imgdetails{
+    width: 50rem;
+}

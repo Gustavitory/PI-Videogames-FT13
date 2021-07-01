@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Game';
+    src: url(game_over.ttf);
+}
+
+/* https://images4.alphacoders.com/900/thumb-1920-900718.jpg  -- imagen de monster hunter*/
+/* https://media.giphy.com/media/Px7uHBEi4iifC/giphy.gif  -- imagen de las naves espaciales gif*/
+/* https://media.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif  -- imagen de ventana gif*/
+/* https://www.wallpapertip.com/wmimgs/27-279434_super-smash-bros-ultimate-characters.jpg -- smash*/
+.littleA{
+    width: 15rem;
+}
+.landingpage{
+    /* background-image: url('https://images4.alphacoders.com/900/thumb-1920-900718.jpg'); */
+    /* background-size: cover; */
+    /* overflow: hidden; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 0rem;
+    padding: 0rem;
+}
+.content{
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    font-weight: bolder;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 30px;
+    margin-top: 140px;  
+    background-color: rgba(0, 0, 0, 0.753);  
+    border-radius: 10px;
+    box-shadow:2px 2px 5px rgb(0, 0, 0);
+}
+
+.link {background-image: linear-gradient(to right, #EB5757 0%, #000000  51%, #EB5757  100%)}
+.link {
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #000000;
+    font-family: 'DotGothic16', sans-serif;
+   margin: auto;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(0, 0, 0);
+   border-radius: 10px;
+   display: block;
+   width: 100px;
+ }
+
+ .link:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   transform: scale(1.5);
+ }
+
+

@@ -1,0 +1,52 @@
+.game_img{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.item{
+    width: 16rem;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+.tarjeta {background-image: linear-gradient(to right, #EB5757 0%, #000000  51%, #EB5757  100%)}
+.tarjeta{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 15px 25px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    display: block;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    background-size: 200% auto;
+}
+.tarjeta:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+.buttons{
+    padding-top:1rem;
+    margin: auto;
+    width: 13rem;
+}
+.pagcontrol2{
+    position: fixed;
+    bottom: 2rem;
+    right: 35rem;
+    z-index: 100;
+}
+.pagcontrol1{
+    position: fixed;
+    bottom: 2rem;
+    right: 45rem;
+    z-index: 100;
+}
